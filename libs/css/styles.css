@@ -86,13 +86,6 @@ ul {
 .flex-item {
   font-size: 17px;
   font-family: 'Fira Sans', sans-serif;
-  /* background-image: url(../img/bulldog.jpg);
-  width: 95%;
-  height: 720px;
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-  padding: 15px; */
 }
 
 .flex-item-2 {
@@ -150,12 +143,6 @@ ul {
   color: #FF4850;
 }
 
-@media (min-width: 600px) {
-  .nav {
-    font-size: 1.25em;
-  }
-}
-
 @media (max-width: 768px) {
   .btn {
     width: 100%;
@@ -182,12 +169,15 @@ ul {
 
 @media only screen and (max-width: 768px) {
   .nav a.active {
-    width: 100%;
+    width: 230%;
+    display: flex;
+    justify-content: center;
+    flex-basis: auto;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .flex-item-2 {
-    display: none;
+    background-image: none;
   }
 }
